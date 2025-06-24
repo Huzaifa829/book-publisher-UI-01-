@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1960" height="384">
+  <defs>
+    <linearGradient id="c" x1="0%" x2="50%" y1="23.545%" y2="76.455%">
+      <stop offset="0%" stop-color="#E64C4C" />
+      <stop offset="100%" stop-color="#FB8332" />
+    </linearGradient>
+    <linearGradient id="d" x1="0%" x2="50%" y1="26.897%" y2="73.103%">
+      <stop offset="0%" stop-color="#FB8332" />
+      <stop offset="100%" stop-color="#F8C332" />
+    </linearGradient>
+    <path id="a" d="M0 0h1960v384H0z" />
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <mask id="b" fill="#fff">
+      <use xlink:href="#a" />
+    </mask>
+    <g mask="url(#b)">
+      <path fill="url(#c)" transform="matrix(1 0 0 -1 -143 495.675)"
+        d="M391.268 120.853L49.465 695.822l790.456-419.936z" />
+      <path stroke="#FA6400" stroke-linecap="round" stroke-linejoin="round" opacity=".398"
+        d="M221.789 362.307L-143-235.545l855.815 431.943z" />
+      <path fill="#F7B500" opacity=".4" style="mix-blend-mode:screen"
+        d="M1934.579 108.215l-419.837 257.5-33.163-515z" />
+      <path stroke="#FA6400" stroke-linecap="round" stroke-linejoin="round" opacity=".398"
+        d="M1949.579 124.715l-419.837 258-33.163-516z" />
+      <path fill="#F7B500" opacity=".4" style="mix-blend-mode:screen"
+        d="M635.028 173.709l-12.931-484.062 454.907 224.995z" />
+      <path stroke="#FA6400" stroke-linecap="round" stroke-linejoin="round" opacity=".398"
+        d="M613.357 163.8l-12.91-484.801 455.541 225.302z" />
+      <path fill="url(#d)" transform="matrix(1 0 0 -1 -143 400.726)"
+        d="M834.599 429.337l837.645 216.222-308.696-569.392z" />
+      <path stroke="#FA6400" stroke-linecap="round" stroke-linejoin="round" opacity=".398"
+        d="M721.574-36.603l837.743-215.776-308.696 569.393z" />
+    </g>
+  </g>
+</svg>

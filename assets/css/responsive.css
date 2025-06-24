@@ -1,0 +1,269 @@
+@media only screen and (max-width: 768px) {
+    header.header-main.for-mobile.d-none {
+        display: block !important;
+    }
+
+    a.navbar-brand img {
+        width: 50%;
+    }
+
+    header.header-main.for-mobile.d-none {
+        background: white;
+    }
+
+    button.navbar-toggler.collapsed {
+        border-color: #ff9900;
+    }
+
+    svg:not(:host).svg-inline--fa, svg:not(:root).svg-inline--fa{
+        color: #ff9900;
+    }
+
+    ul.navbar-nav.me-auto.mb-2.mb-lg-0 li.nav-item a {
+        color: black;
+        font-size: 15px;
+        font-weight: 600;
+    }
+
+    .navbar-toggler {
+        background-color: gray;
+        border: 1px solid #ff9900;
+    }
+
+    nav.navbar.navbar-expand-lg.bg-body-tertiary {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+    }
+
+    nav.navbar.navbar-expand-lg.bg-body-tertiary a.navbar-brand {
+        flex: 0 0 70%;
+    }
+
+    button.navbar-toggler {
+        border-color: #ff9900;
+    }
+
+    .navbar-toggler:focus{
+        box-shadow: none !important;
+    }
+
+    .navbar-nav .dropdown-menu {
+        border: 2px solid #ff9900;
+        height: 200px;
+        overflow: auto;
+    }
+
+    header,
+    .cta-img,
+    .bottom-text-abs,
+    .reasonwrp .imgwrp img,
+    .main-cta img,
+    .image-right:after,
+    .about-sec-3-img,
+    .contact-img,
+    .amazon-automation-banner-image,
+    .amazon-automation {
+        display: none;
+    }
+
+    .home-bannerwrp .txtwrp h1 {
+        font-size: 32px;
+        font-weight: 600;
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+    .home-bannerwrp {
+        padding: 150px 0 100px;
+    }
+
+    .home-bannerwrp .formwrp {
+        background: none;
+    }
+
+    .home-bannerwrp .formwrp form .lable {
+        width: 100%;
+        margin: 0;
+    }
+
+    .home-bannerwrp .formwrp form .lable input.fxtwrp {
+        border-radius: 0;
+    }
+
+    .home-bannerwrp .formwrp form .lable input.btn {
+        font-size: 15px;
+        height: 35px;
+        width: 35%;
+        border: none;
+        margin: 0;
+    }
+
+    .home-bannerwrp .formwrp form .lable input {
+        height: 40px;
+    }
+
+    .txtwrp .banner-trust-logo {
+        flex-wrap: wrap;
+    }
+
+    .home-bannerwrp .txtwrp img {
+        /* width: 30%; */
+        margin-bottom: 0px;
+        flex: 35% 0 0;
+    }
+
+    .what-we-do h2,
+    .services-sec-meta h2,
+    .services-meta h2,
+    .faqs h2,
+    .portfolio-meta h2,
+    .testi .cus h2,
+    .fa-60,
+    .reasonwrp .txtwrp h2 {
+        font-size: 25px;
+    }
+
+    .what-we-do h4,
+    .portfolio-meta h4,
+    .services-sec-meta h4,
+    .services-meta h4,
+    .inner-service-banner h4,
+    button.btn.global-btn {
+        font-size: 15px;
+    }
+
+    .flex-horizontal {
+        margin-top: 30px;
+    }
+
+    .services-sec {
+        padding: 40px 0;
+    }
+
+    .servicesec .boxwrap {
+        margin-top: 0;
+        display: flex;
+        justify-content: center;
+    }
+
+    .servicesec .boxwrap button {
+        width: unset;
+        padding: 25px;
+        min-height: 0;
+    }
+
+    .mainwrp-second,
+    .what-we-do-meta {
+        margin-top: 20px;
+    }
+
+    .services-navwrp .mainwrp-second .txtwrp h2 {
+        font-size: 25px;
+    }
+
+    .services-navwrp .imgdiv img {
+        height: 270px;
+    }
+
+    .main-cta .cta-box h2,
+    .reasonwrp:after,
+    .reasonwrp .mainwrp {
+        width: 100%;
+    }
+
+    .cta-meta {
+        display: block !important;
+    }
+
+    .cta-meta p {
+        width: 100%;
+        margin-top: 20px;
+        margin-bottom: 0;
+    }
+
+    .our-process-flex {
+        display: block;
+        padding: 40px 0 0;
+    }
+
+    .circle-columns {
+        width: 100%;
+    }
+
+    .image-right>img {
+        width: 80%;
+        height: auto;
+        display: flex;
+        margin: 0 auto;
+    }
+
+    .text-inner-process {
+        max-width: 70%;
+    }
+
+    .text-inner-process h2 {
+        font-size: 20px;
+    }
+
+    .circle-columns .image-right>span {
+        width: 9%;
+        height: 10%;
+        font-size: 14px;
+        top: 50px;
+        color: #fff;
+    }
+
+    .form-wrap {
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    .cta-sec {
+        padding: 20px;
+    }
+
+    /** FOOTER RESPONSIVE **/
+
+    footer {
+        text-align: center;
+    }
+
+    footer .row.bodr-top {
+        padding: 0px 0 30px;
+        margin: 0 0 40px;
+    }
+
+    footer .formwrp {
+        text-align: left;
+        margin-top: 20px;
+    }
+
+    footer .formwrp form .lablewrp {
+        width: 100%;
+    }
+
+    footer .formwrp form .lablewrp input {
+        font-size: 14px;
+    }
+
+    footer .formwrp form .lablewrp input.btnwpr {
+        width: 25%;
+        font-size: 14px;
+    }
+
+    .ftr-btm {
+        padding: 15px 0;
+    }
+
+    .ftr-btm .txtdiv ul {
+        padding: 0;
+    }
+
+    .ftr-btm .txtwrp ul {
+        padding: 0;
+        text-align: center;
+    }
+}
