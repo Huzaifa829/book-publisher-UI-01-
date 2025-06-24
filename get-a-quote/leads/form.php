@@ -13,13 +13,13 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         fclose($file);
 
 
-        $to = "huzaifa@primetechnologyltd.com";
+        $to = "info@amzvirtualassistant.com";
         $subject = "New Lead Submission";
         $body = "Name: $name\nEmail: $email\nPhone: $phone\nMessage: $message";
         mail($to, $subject, $body);
 
-
-        echo "Thank you! Your information has been submitted.";
+       header("Location: /get-a-quote/leads/thankyou.html");
+exit;
     } else {
         echo "Error: All fields are required.";
     }
