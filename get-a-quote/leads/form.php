@@ -5,24 +5,20 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $phone = isset($_POST['quote']['phone']) ? htmlspecialchars(trim($_POST['quote']['phone'])) : '';
     $message = isset($_POST['quote']['message']) ? htmlspecialchars(trim($_POST['quote']['message'])) : '';
 
-    if ($name && $email && $phone && $message) {
-        $data = [$name, $email, $phone, $message, date("Y-m-d H:i:s")];
+    $data = [$name, $email, $phone, $message, date("Y-m-d H:i:s")];
 
-        $file = fopen("leads.csv", "a");
-        fputcsv($file, $data);
-        fclose($file);
+    $file = fopen("leads.csv", "a");
+    fputcsv($file, $data);
+    fclose($file);
 
 
-        $to = "info@amzvirtualassistant.com";
-        $subject = "New Lead Submission";
-        $body = "Name: $name\nEmail: $email\nPhone: $phone\nMessage: $message";
-        mail($to, $subject, $body);
+    $to = "info@amzvirtualassistant.com";
+    $subject = "New Lead Submission";
+    $body = "Name: $name\nEmail: $email\nPhone: $phone\nMessage: $message";
+    mail($to, $subject, $body);
 
-       header("Location: /get-a-quote/leads/thankyou.html");
-exit;
-    } else {
-        echo "Error: All fields are required.";
-    }
+    header("Location: /get-a-quote/leads/thankyou.html");
+    exit;
 } else {
     echo "Invalid request method.";
 }
