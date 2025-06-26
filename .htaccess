@@ -1,0 +1,7 @@
+# Basic security rules
+Options -Indexes
+RewriteEngine On
+Header set X-Content-Type-Options nosniff
+Header set X-XSS-Protection "1; mode=block"
+Header always set Referrer-Policy "no-referrer-when-downgrade"
+Header always set X-Frame-Options "SAMEORIGIN"
